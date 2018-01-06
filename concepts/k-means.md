@@ -22,8 +22,11 @@ The objective function for the K-means clustering algorithm is the squared error
 * K-means also fails to perform in high-dimensional spaces as Euclidean distances tend to become inflated (an instance of the “curse of dimensionality”). Performing dimensionality reduction (PCA) before running k-means can help speed up computations.
 * K-means will converge with time but to a local minimum in many instances. Since this is highly dependent on centroid initialization, initial centroids are chosen to be distant from each other leading to a better result. This is called k-means++ and can be implimented in Python's _scikit-learn_ (use the init='k-means++' parameter).
 
-### Sources
+### Sources and Readings
 
 1. http://scikit-learn.org/stable/modules/clustering.html#k-means
-2. https://brilliant.org/wiki/k-means-clustering/
-3. http://stanford.edu/class/ee103/visualizations/kmeans/kmeans.html
+2. http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html
+3. https://brilliant.org/wiki/k-means-clustering/
+4. http://stanford.edu/class/ee103/visualizations/kmeans/kmeans.html
+5. http://scikit-learn.org/stable/modules/clustering.html#clustering-evaluation
+6. https://www.benkuhn.net/squared
