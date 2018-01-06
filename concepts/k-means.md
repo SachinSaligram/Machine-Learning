@@ -14,6 +14,9 @@ The algorithm starts off by choosing k initial centroids. Subsequently the algor
 
 The objective function for the K-means clustering algorithm is the squared error function. It attempts to pick centroids that minimize the distance to all points belonging to its respective cluster.
 
+![](https://github.com/SachinSaligram/Machine-Learning/blob/master/images/kmeansequation.png)
+![](https://github.com/SachinSaligram/Machine-Learning/blob/master/images/kmeansplot.png)
+
 ### Additional Points
 
 * Lloyd's algorithm is a commom k-means algorithm where k is known.
